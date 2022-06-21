@@ -27,5 +27,10 @@ prompt.get(['id'], function (err, result) {
     console.log(product);
   }); */
 
-removeProductId(5);
+// removeProductId(5);
 
+// prompt for which ID to remove
+prompt.get(['id'], function (err, result) {
+    var removeID = removeProductId(result.id);
+    
+})
